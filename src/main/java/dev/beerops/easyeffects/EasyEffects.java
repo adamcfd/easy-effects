@@ -1,4 +1,4 @@
-package com.crimsonwarpedcraft.exampleplugin;
+package dev.beerops.easyeffects;
 
 import io.papermc.lib.PaperLib;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -9,7 +9,7 @@ import org.bukkit.plugin.java.JavaPlugin;
  *
  * @author Copyright (c) Levi Muniz. All Rights Reserved.
  */
-public class ExamplePlugin extends JavaPlugin {
+public class EasyEffects extends JavaPlugin {
 
   @Override
   public void onEnable() {

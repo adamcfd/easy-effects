@@ -1,4 +1,4 @@
-package com.crimsonwarpedcraft.exampleplugin;
+package dev.beerops.easyeffects;
 
 import org.junit.jupiter.api.Test;
 

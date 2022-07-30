@@ -2,7 +2,7 @@ main: ${PACKAGE}.${NAME}
 name: ${NAME}
 version: "${VERSION}"
 api-version: "1.16"
-author: AUTHOR
+author: dev.beerops
 description: DESCRIPTION
 commands:
   ex:
@@ -10,11 +10,11 @@ commands:
     usage: "For a list of commands, type /ex help"
     aliases: example
 permissions:
-  example.test:
+  ee.test:
     description: DESCRIPTION
     default: true
-  example.*:
+  ee.*:
     description: Grants all other permissions
     default: false
     children:
-      example.test: true
+      ee.test: true
